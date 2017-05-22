@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono')
+
+
+.element::-webkit-scrollbar{
+  width: 0 !important;
+}
+
+button:focus{
+  outline-style: none;
+}
+
+.mainView{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #454545;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.header{
+  width: 100%;
+}
+
+.title{
+  background: #454545;
+  color: white;
+  font-size: 73px;
+  margin-left: 2vw;
+}
+
+.buttonGroup{
+  margin-left: 2.35vw;
+  margin-top: 15px;
+}
+
+.buttonCSS{
+  width: 90px;
+  height: 35px;
+  background: #0077ee;
+  color: white;
+  font-size: 18px;
+}
+
+.board{
+  margin: auto;
+  height: 600px;
+  width:  600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  cursor: none;
+}
+
+.square{
+  width: 15px;
+  height: 15px;
+  background: white;
+  margin: 1px;
+  color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+
+.squareR{
+  width: 15px;
+  height: 15px;
+  background: red;
+  margin: 1px;
+  color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+
+.square:hover{
+  background: #0077ee;
+}
+.squareR:hover{
+  background: #0077ee;
+}
+
+.generationCount{
+  font-size: 450%;
+  padding-right: 10px;
+  text-align: right;
+  color: white;
+  font-family: 'Share Tech Mono';
+  margin-left: 75%;
+  width: 25%;
+}
